@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/styles.css"></link>
+  </head>
+  <body>
+    <h1>
+      <button id="login">Login</button>
+      <button id="logout" class="hidden">Logout</button>
+      Firebase Chat
+    </h1>
+    <ul id="messages" class="hidden"></ul>
+    <form autocomplete="off">
+      <input type="text" id="message" placeholder="your message..."></input>
+    </form>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+<script src="js/main.js"></script>
+  </body>
+</html>
